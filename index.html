@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Chat AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-header">
+        <h1>Stock Chat AI</h1>
+        <p>Your personal stock and chat assistant</p>
+    </div>
+    <div class="container">
+        <div class="left-column">
+            <div class="box user-details">
+                <h2>User Details</h2>
+                <div class="user-details-content">
+                <p><strong>Name:</strong>Gautam Kumar</p>
+                <p><strong>Reg:</strong>12307749</p>
+                <p><strong>Roll:</strong>24</p>
+                <p><strong>Sec:</strong>K23GW</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="box chat-section">
+                <h2>Chat with AI</h2>
+                <div id="chatBox" class="chat-box"></div>
+                <div class="chat-input">
+                    <input type="text" id="chatInput" placeholder="Ask about stocks (e.g., 'GOOGL stock details') or anything else!" />
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
